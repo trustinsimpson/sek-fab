@@ -1,7 +1,7 @@
 import React from "react";
 
 // reactstrap components
-import { Button, Container, Row, Col, UncontrolledTooltip, Badge } from "reactstrap";
+import { Button, Container, Row, Col, UncontrolledTooltip } from "reactstrap";
 
 import { UncontrolledCollapse, CardBody, Card } from "reactstrap";
 
@@ -32,25 +32,6 @@ function About() {
               </h5>
             </Col>
             <Col className="text-center" lg="8" md="12">
-              {/* <Button
-                className="btn-round mr-1"
-                color="info"
-                href="https://www.creative-tim.com/product/now-ui-kit-react?ref=nukr-index-page"
-                role="button"
-                size="lg"
-              >
-                Contact
-              </Button>
-              <Badge
-                className="btn-round"
-                color="Default"
-                outline
-                size="lg"
-                target="_blank"
-              >
-                
-              </Badge> */}
-
 <Button className="btn-round" size="lg" color="info" id="buttonToggler">
           Contact
         </Button>
