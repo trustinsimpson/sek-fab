@@ -11,8 +11,9 @@ function DarkFooter() {
         <Row className="d-flex justify-content-center">
           <Col className="d-flex justify-content-center" lg="8" md="12">
             <nav>
-              <a href="https://trustinsimpson.com/" target="_blank">
-                Developed by Trustin Simpson
+              Developed by 
+              <a href="https://trustinsimpson.com/" target="_blank" className="text-info">
+                &nbsp;Trustin Simpson
               </a>
               <Button
                 className="btn-neutral btn-icon btn-round"
@@ -23,6 +24,16 @@ function DarkFooter() {
                 target="_blank"
               >
                 <i className="fab fa-twitter"></i>
+              </Button>
+              <Button
+                className="btn-neutral btn-icon btn-round"
+                color="github"
+                href="https://github.com/trustinsimpson"
+                id="tooltip735272548"
+                size="md"
+                target="_blank"
+              >
+                <i className="fab fa-github"></i>
               </Button>
               <UncontrolledTooltip delay={0} target="tooltip735272548">
                 Follow me

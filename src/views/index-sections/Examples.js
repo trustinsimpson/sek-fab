@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 // reactstrap components
-import { Button, Container, Row } from "reactstrap";
+import { Card, CardImg, CardBody, CardTitle, CardText, Button, Container, Row } from "reactstrap";
 
 // core components
 
@@ -13,6 +13,25 @@ function Examples() {
         <Container className="text-center">
           <Row>
             <div className="col">
+            <Card style={{ width: "20rem" }}>
+        <CardImg alt="..." data-src="holder.js/100px180/" top></CardImg>
+        <CardBody>
+          <CardTitle tag="h4">Card title</CardTitle>
+          <CardText className="text-muted">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </CardText>
+          <Button
+            color="primary"
+            href="#pablo"
+            onClick={e => e.preventDefault()}
+          >
+            Go somewhere
+          </Button>
+        </CardBody>
+      </Card>
+            </div>
+            {/* <div className="col">
               <a href="examples/landing-page.html" target="_blank">
                 <img
                   alt="..."
@@ -29,7 +48,7 @@ function Examples() {
               >
                 View Landing Page
               </Button>
-            </div>
+            </div> */}
             <div className="col">
               <a href="examples/profile-page.html" target="_blank">
                 <img

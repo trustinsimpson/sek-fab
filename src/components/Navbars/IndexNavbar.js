@@ -114,7 +114,7 @@ function IndexNavbar() {
                   nav
                   onClick={(e) => e.preventDefault()}
                 >
-                  <i className="now-ui-icons design_app mr-1"></i>
+                  <i className="now-ui-icons design_app"></i>
                   <p>Services</p>
                 </DropdownToggle>
                 <DropdownMenu>
