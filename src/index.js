@@ -31,6 +31,7 @@ import LoginPage from "views/examples/LoginPage.js";
 import LandingPage from "views/examples/LandingPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
 
+
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
