@@ -21,13 +21,18 @@ function Cards(props){
           <CardText className="text-muted">
             {props.text}
           </CardText>
-          <Button
-            color="primary"
+          {/* <Button
+            color="info"
             href="#pablo"
-            onClick={e => e.preventDefault()}
+            onClick={(e) => {
+              e.preventDefault();
+              document
+                .getElementById("about-section")
+                .scrollIntoView();
+            }}
           >
-            Go somewhere
-          </Button>
+            Contact
+          </Button> */}
         </CardBody>
       </Card>
     </>

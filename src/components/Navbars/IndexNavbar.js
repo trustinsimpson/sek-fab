@@ -98,6 +98,20 @@ function IndexNavbar() {
                   onClick={(e) => {
                     e.preventDefault();
                     document
+                      .getElementById("services-section")
+                      .scrollIntoView();
+                  }}
+                >
+                  <i className="now-ui-icons design_app"></i>
+                  <p>Services</p>
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  href="#pablo"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    document
                       .getElementById("about-section")
                       .scrollIntoView();
                   }}
@@ -106,31 +120,6 @@ function IndexNavbar() {
                   <p>About</p>
                 </NavLink>
               </NavItem>
-              <UncontrolledDropdown nav>
-                <DropdownToggle
-                  caret
-                  color="default"
-                  href="#pablo"
-                  nav
-                  onClick={(e) => e.preventDefault()}
-                >
-                  <i className="now-ui-icons design_app"></i>
-                  <p>Services</p>
-                </DropdownToggle>
-                <DropdownMenu>
-                  <DropdownItem to="/index" tag={Link}>
-                    <i className="now-ui-icons business_chart-pie-36 mr-1"></i>
-                    Change
-                  </DropdownItem>
-                  <DropdownItem
-                    href="https://demos.creative-tim.com/now-ui-kit-react/#/documentation/introduction?ref=nukr-index-navbar"
-                    target="_blank"
-                  >
-                    <i className="now-ui-icons design_bullet-list-67 mr-1"></i>
-                    Change
-                  </DropdownItem>
-                </DropdownMenu>
-              </UncontrolledDropdown>
               <NavItem>
                 <NavLink
                   href="https://www.facebook.com/SEK-Fabrication-108075677742785/"
