@@ -1,7 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 // reactstrap components
-import {  Button, Container, Row, Col } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 import Cards from "./Card";
 import mig from "../../assets/img/mig-welder.jpg";
 import tig from "../../assets/img/tig-welder.jpg";
