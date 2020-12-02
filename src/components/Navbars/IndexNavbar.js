@@ -1,4 +1,5 @@
 import React from "react";
+
 // reactstrap components
 import {
   Collapse,
@@ -10,7 +11,6 @@ import {
   Container,
   UncontrolledTooltip,
 } from "reactstrap";
-
 
 function IndexNavbar() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
@@ -48,18 +48,13 @@ function IndexNavbar() {
       <Navbar className={"fixed-top " + navbarColor} expand="lg" color="info">
         <Container>
           <div className="navbar-translate">
-            <NavbarBrand
-              target="_blank"
-              id="navbar-brand"
-            >
+            <NavbarBrand target="_blank" id="navbar-brand">
               <NavLink
                 href="#pablo"
                 onClick={(e) => {
-                   e.preventDefault();
-                   document
-                     .getElementById("header-section")
-                     .scrollIntoView();
-                 }}
+                  e.preventDefault();
+                  document.getElementById("header-section").scrollIntoView();
+                }}
               >
                 SEK Fabrication
               </NavLink>
@@ -95,6 +90,8 @@ function IndexNavbar() {
                     document
                       .getElementById("services-section")
                       .scrollIntoView();
+                    document.documentElement.classList.toggle("nav-open");
+                    setCollapseOpen(false);
                   }}
                 >
                   <i className="now-ui-icons design_app"></i>
@@ -106,9 +103,9 @@ function IndexNavbar() {
                   href="#pablo"
                   onClick={(e) => {
                     e.preventDefault();
-                    document
-                      .getElementById("about-section")
-                      .scrollIntoView();
+                    document.getElementById("about-section").scrollIntoView();
+                    document.documentElement.classList.toggle("nav-open");
+                    setCollapseOpen(false);
                   }}
                 >
                   <i className="now-ui-icons travel_info"></i>
