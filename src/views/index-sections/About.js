@@ -25,14 +25,15 @@ function About() {
         <Container>
           <Row className="justify-content-md-center">
             <Col className="text-center" lg="8" md="12">
-              <h3 className="title">It started with a dream...</h3>
+              <h3 className="title">A bond stronger than your first marriage</h3>
               <h5 className="description">
                 Since I was child, I knew I wanted to work for myself and that I
                 wasn't destined for an office, but I didn't know exactly what I
-                wanted to do. Over time, as I worked around my grandfather's
-                farm, I realized how important welding is in everyday equipment.
-                Eventually I began to see the importance of fabrication as a
-                whole and the dream was born! Years, trade school, a couple
+                wanted to do. Over time, as I worked around my grandpa's
+                farm, I started to see how important welding is.
+                Eventually I began to see that there's so much more to fabrication
+                than just fixing a couple broken welds, and I began to see
+                a dream for the future! Years, trade school, a couple
                 welding jobs, and fab projects later - now that dream of working
                 for myself has become a reality!
               </h5>
